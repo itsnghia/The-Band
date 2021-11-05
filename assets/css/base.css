@@ -1,0 +1,20 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #ccc;
+    --red-color: #f44336;
+}
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Arial' , sans-serif;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,119 @@
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+@media (max-width: 739.9px) {
+    .navbar > .navbar__item:nth-child(2):before {
+        content: "";
+        display: block;
+        height: .1rem;
+        width: 60%;
+        background-color: gray;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header__navbar {
+        overflow: hidden;
+    }
+
+    .header__navbar.active {
+        overflow: visible;
+    }
+
+    .navbar__item {
+        background-color: var(--black-color);
+    }
+
+    .member {
+        flex-flow: column nowrap;
+    }
+
+    .tour__card-container + .tour__card-container {
+        margin-top: 3.2rem;
+    }
+
+    .tour__card-body .btn {
+        padding: 1.6rem 1rem;
+    }
+
+    .contact__form .row input {
+        margin-top: 1.2rem;
+    }
+
+    .contact__form .btn {
+        width: 100%;
+        padding: 1.6rem 1rem;   
+    }
+    
+
+    
+
+    /* Common */
+    .d-sm-none {
+        display: none !important;
+    }
+    
+    .d-sm-block {
+        display: block !important;
+    }
+    
+    .d-sm-inline-block {
+        display: inline-block !important;
+    }
+    
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 740px) {
+    .d-md-none {
+        display: none !important;
+    }
+    
+    .d-md-block {
+        display: block !important;
+    }
+    
+    .d-md-inline-block {
+        display: inline-block !important;
+    }
+    
+    .d-md-flex {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .d-lg-none {
+        display: none !important;
+    }
+    
+    .d-lg-block {
+        display: block !important;
+    }
+    
+    .d-lg-inline-block {
+        display: inline-block !important;
+    }
+    
+    .d-lg-flex {
+        display: flex !important;
+    }
+}
